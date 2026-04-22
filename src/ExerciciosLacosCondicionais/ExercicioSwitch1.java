@@ -7,7 +7,7 @@ public class ExercicioSwitch1 {
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 		int produto, qtdade;
-		float prod1, prod2, prod3, prod4, prod5, prod6,precoUnit, valorTotal;
+		float prod1, prod2, prod3, prod4, prod5, prod6;
 		
 		System.out.println("******** Códigos dos produtos ********");
 		System.out.println("* 1 - Cachorro Quente                *");
