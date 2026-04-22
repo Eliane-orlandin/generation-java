@@ -12,26 +12,22 @@ public class ExercicioIf1 {
 		System.out.println("Digite o primeiro valor: ");
 		valor1 = leia.nextInt();
 		
-		System.out.println("Digite o primeiro valor: ");
+		System.out.println("Digite o segundo valor: ");
 		valor2 = leia.nextInt();
 		
-		System.out.println("Digite o primeiro valor: ");
+		System.out.println("Digite o terceiro valor: ");
 		valor3 = leia.nextInt();
 		
 		soma = valor1 + valor2;
 		
 		if (soma > valor3) {
-			System.out.println("A soma de A + B é maior que C");
+			System.out.println("A soma de A + B é maior que C.");
 		} else if (soma < valor3) {
-			System.out.println("A soma de A + B é menor que C");
+			System.out.println("A soma de A + B é menor que C.");
 		} else {
-			System.out.println("A soma de A + B é igual que C");
+			System.out.println("A soma de A + B é igual que C.");
 		}
-		
-		
-		
-		
-		
+			
 		leia.close();
 	}
 
