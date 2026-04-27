@@ -14,7 +14,6 @@ public class ExercicioCollectionList {
 		
 		System.out.println("Digite cinco cores: (a cada cor digitada aperte o enter)");
 		for (int i = 0; i < 5; i++) {
-			//System.out.print("Digite uma cor: ");
 			cores.add(leia.nextLine());			
 			}
 		
